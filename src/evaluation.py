@@ -145,7 +145,7 @@ class RAGEvaluator:
         
         return pd.DataFrame(self.evaluation_results)
     
-    def generate_evaluation_report(self, output_file='../reports/evaluation_results.csv'):
+    def generate_evaluation_report(self, output_file='reports/evaluation_results.csv'):
         """
         Generate and save evaluation report.
         

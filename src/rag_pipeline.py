@@ -6,7 +6,7 @@ from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 import os
 
 class RAGPipeline:
-    def __init__(self, vector_store_path='../vector_store/', model_name='microsoft/DialoGPT-medium'):
+    def __init__(self, vector_store_path='vector_store/', model_name='microsoft/DialoGPT-medium'):
         """
         Initialize the RAG pipeline with vector store and LLM.
         
